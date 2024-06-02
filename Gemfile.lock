@@ -268,7 +268,7 @@ PLATFORMS
 
 DEPENDENCIES
   csv
-  github-pages (~> 231)
+  github-pages
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.9.5)
   jekyll-feed (~> 0.12)
