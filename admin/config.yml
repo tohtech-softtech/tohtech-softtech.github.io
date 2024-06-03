@@ -1,8 +1,10 @@
 local_backend: true
 
 backend:
-  name: git-gateway
+  name: github
+  repo: tohtech-softtech/tohtech-softtech.github.io
   branch: main
+  auth_endpoint: https://api.netlify.com/auth
 
 publish_mode: "editorial_workflow"
 
