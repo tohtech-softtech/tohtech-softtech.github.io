@@ -34,3 +34,24 @@ bundle install
 bundle exec jekyll serve
 ```
 サーバが起動したら、ブラウザで http://localhost:4000 にアクセスしてください。
+
+## ファイル構成図
+```
+tohtech-softtech.github.io:
+│  .gitignore
+│  about.md         # /about ページの中身
+│  favicon.ico      # ウェブサイトのアイコン
+│  gallery.md       # /works ページの中身
+│  Gemfile          # Rubyの設定ファイル (基本いじらない)
+│  Gemfile.lock     # Rubyの設定ファイル (基本いじらない)
+│  index.md         # / ページの中身
+│  README.md
+│  _config.yml      # ウェブサイトの設定ファイル
+├─admin             # DecapCMSの設定フォルダ (未設定)
+├─_includes         # ホームページの共通部分のフォルダ
+├─_layouts          # ホームページのレイアウトフォルダ
+├─_posts            # ブログとして投稿するMarkdownのフォルダ
+├─_sass
+│  └─minima         # ホームページのSCSSのフォルダ
+└─_site             # 生成される静的フォルダ (基本いじらない)
+```
