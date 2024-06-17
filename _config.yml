@@ -1,8 +1,8 @@
 title: 東北工業大学 ソフトウェア技術研究会
 email: ""
-description: ""
+description: "ソフトウェア技術研究会は、東北工業大学公認サークルです。主にプログラミングや3DCGの制作・発表を行っています。"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://softtechtohtech.work" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: softwareTohtech
 github_username:  tohtech-softtech
 
