@@ -50,6 +50,7 @@ bundle exec jekyll serve
 ```
 tohtech-softtech.github.io:
 │  .gitignore
+│  404.html         # 404 ページの中身
 │  about.md         # /about ページの中身
 │  favicon.ico      # ウェブサイトのアイコン
 │  gallery.md       # /works ページの中身
