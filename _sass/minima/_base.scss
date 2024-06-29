@@ -148,10 +148,12 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  @include relative-font-size(0.85);
+  // border: 1px solid #1c283d;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: #1d2020;
+  color: #ffffff;
+  font-family: "Consolas";
 }
 
 code {
